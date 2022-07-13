@@ -40,7 +40,6 @@ const LandingPage = () => {
                             <p className="info">{project.info}</p>
                             <p className="dev-tool">{project.dev_tool}</p>
                             <Link to={`/project/${project.id}`} className='check'>MORE DETAILS</Link>
-                            {/* <a href={projects[0].link} className="check">MORE DETAILS</a> */}
                         </div>
                         <Link to={`/project/${project.id}`} className="img-container" data-aos="fade-left"><img src={project.features[0].image[0]} alt="project thumbnail" className="proj-img"></img></Link>
                     </div>
