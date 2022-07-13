@@ -31,7 +31,7 @@ const ProjectDetails = () => {
                         </div>
                         <div className="project-feature-link">
                             <HashLink smooth to={feat} className="project-feature" onClick={scroll}>FEATURES</HashLink>
-                            <a href={projects[0].link} className="project-feature">VIEW WEB APP</a>
+                            <a href={project.link} className="project-feature">VIEW WEB APP</a>
                         </div>
                     </div>
                 </div>
