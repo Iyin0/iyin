@@ -362,6 +362,7 @@ footer span {
   .project-container {
     width: 100%;
     margin-bottom: 50px;
+    padding-right: 0px;
   }
 
   .bio h1,
