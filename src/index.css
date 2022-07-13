@@ -76,6 +76,9 @@ body {
   font-size: 13px;
   font-weight: 700;
   width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .project-link:hover {
@@ -242,6 +245,9 @@ body {
   font-weight: 700;
   width: 120px;
   padding-right: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .project-feature:hover {
