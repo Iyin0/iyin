@@ -2,7 +2,7 @@ const projects = [
     {
         name: "My Debtor",
         id: 1,
-        info: "This is a fully developed website to assist schools with recovering student debts as well as prevent the admission od a debtor.",
+        info: "This is a fully developed website to assist schools with recovering student debts as well as prevent the admission of a debtor.",
         dev_tool: "Developed using React.js, Redux and CSS.",
         about: "My debtor is a school administrative webapp. It's primary function is to help schools recover debts from defaulting students, " +
             "who on many occasions leave for another school without balancing their debts. This app helps other schools track this type of students " +
