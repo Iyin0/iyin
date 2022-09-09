@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/iyin/static/css/main.a99ec8fa.css",
-    "main.js": "/iyin/static/js/main.722dc0fb.js",
+    "main.css": "/iyin/static/css/main.3e005f55.css",
+    "main.js": "/iyin/static/js/main.6513ccb4.js",
     "static/media/6.jpg": "/iyin/static/media/6.5c6a323c3744996f82a2.jpg",
     "static/media/9.png": "/iyin/static/media/9.8966efda49d38908c616.png",
     "static/media/7.png": "/iyin/static/media/7.569ed09d623644be04b1.png",
@@ -22,11 +22,11 @@
     "static/media/13.png": "/iyin/static/media/13.9bdb5d6446d1e50a429d.png",
     "static/media/12.png": "/iyin/static/media/12.e24355ecf294e380c579.png",
     "index.html": "/iyin/index.html",
-    "main.a99ec8fa.css.map": "/iyin/static/css/main.a99ec8fa.css.map",
-    "main.722dc0fb.js.map": "/iyin/static/js/main.722dc0fb.js.map"
+    "main.3e005f55.css.map": "/iyin/static/css/main.3e005f55.css.map",
+    "main.6513ccb4.js.map": "/iyin/static/js/main.6513ccb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a99ec8fa.css",
-    "static/js/main.722dc0fb.js"
+    "static/css/main.3e005f55.css",
+    "static/js/main.6513ccb4.js"
   ]
 }
