@@ -1,27 +1,43 @@
 const projects = [
     {
-        name: "Register",
+        name: "My Debtor",
         id: 1,
-        info: "This is a single page registration form app.",
-        dev_tool: "Developed using HTML and CSS.",
-        about: "This is a registartion form page for users to input their details. The form accepts different types of inputs such as strings, emails and passwords. If a required form field is left empty, the user is notified to fiil in the field.",
+        info: "This is a fully developed website to assist schools with recovering student debts as well as prevent the admission od a debtor.",
+        dev_tool: "Developed using React.js, Redux and CSS.",
+        about: "My debtor is a school administrative webapp. It's primary function is to help schools recover debts from defaulting students, " +
+            "who on many occasions leave for another school without balancing their debts. This app helps other schools track this type of students " +
+            "so the will not be admitted to their school, which in turn helps them to prevent the defaulting student from owing in their school.",
         features: [
             {
-                name: "Registration Page",
+                name: "Landing Page, Contact Page",
                 image: [
-                    require("./images/register/1.png"),
-                    require("./images/register/2.png"),
-                    require("./images/register/3.png")
+                    require("./images/mydebtor/1.png"),
+                    require("./images/mydebtor/2.png")
                 ]
 
             },
 
             {
-                name: "Mobile View",
-                image: [require("./images/register/4.jpg")]
+                name: "Signup, Authentication, KYC and Login",
+                image: [
+                    require("./images/mydebtor/3.png"),
+                    require("./images/mydebtor/4.png"),
+                    require("./images/mydebtor/5.png"),
+                    require("./images/mydebtor/6.png"),
+                    require("./images/mydebtor/7.png")
+                ]
+            },
+
+            {
+                name: "Contention Pages: Access this feature through 'Contend Debt' link on the footer",
+                image: [
+                    require("./images/mydebtor/8.png"),
+                    require("./images/mydebtor/9.png"),
+                    require("./images/mydebtor/10.png"),
+                ]
             }
         ],
-        link: "https://iyin0.github.io/registration/"
+        link: "https://iyin0.github.io/mydebtor/"
     },
 
     {
