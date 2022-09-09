@@ -21,7 +21,7 @@ const LandingPage = () => {
                                 CSS and Javascript along with ReactJS and Redux framework.</p>
                         </div>
                         <HashLink smooth to="/" className="project-link" onClick={scroll}>SEE MY PROJECTS</HashLink>
-                        <p><a href="https://github.com/Iyin0" className="links">Github</a> / <a href="https://www.linkedin.com/in/isaac-bilewu-906716196/" className="links">LinkedIn</a> / <a href="https://drive.google.com/file/d/1WLTdXK3IeLdsGVMfYlhUJnLtz9rdzTHU/view?usp=sharing" className="links">Resume</a></p>
+                        <p className='all-links'><a href="https://github.com/Iyin0" className="links">Github</a> / <a href="https://www.linkedin.com/in/isaac-bilewu-906716196/" className="links">LinkedIn</a> / <a href="https://drive.google.com/file/d/1WLTdXK3IeLdsGVMfYlhUJnLtz9rdzTHU/view?usp=sharing" className="links">Resume</a></p>
                     </div>
                 </div>
                 <div className="container" data-aos="fade-left">

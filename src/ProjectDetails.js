@@ -30,8 +30,8 @@ const ProjectDetails = () => {
                             <p className="dev-tool">{project.dev_tool}</p>
                         </div>
                         <div className="project-feature-link">
-                            <HashLink smooth to={feat} className="project-link" onClick={scroll}>FEATURES</HashLink>
-                            <a href={project.link} className="project-link">VIEW WEB APP</a>
+                            <HashLink smooth to={feat} className="project-feature" onClick={scroll}>FEATURES</HashLink>
+                            <a href={project.link} className="project-feature">VIEW WEB APP</a>
                         </div>
                     </div>
                 </div>

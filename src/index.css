@@ -195,7 +195,6 @@ body {
 
 .project-container {
   width: 560px;
-  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,21 +237,21 @@ body {
   margin-top: 50px;
 }
 
-/* .project-feature {
+.project-feature {
   text-decoration: none;
   color: rgb(21, 21, 82);
   font-size: 16px;
   font-weight: 700;
-  padding-right: 80px;
-  height: 100px;
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .project-feature:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.3s ease-in-out;
-} */
+}
 
 .project-pics {
   width: 560px;
@@ -358,9 +357,8 @@ footer span {
   .front {
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 100px 16px;
+    height: auto;
   }
 
   .container,
@@ -466,8 +464,7 @@ footer span {
   }
 
   .project-feature {
-    font-size: 14px;
     margin-top: 20px;
-    width: 220px;
+    padding: 10px;
   }
 }
