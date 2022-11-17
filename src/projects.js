@@ -1,4 +1,39 @@
 const projects = [
+
+    {
+        name: "Musica",
+        id: 3,
+        info: "This is a music webapp built",
+        dev_tool: "Developed using Reac, Redux and SCSS.",
+        about: "This webapp allows users to create and enjoy their personalised playlist anytime. Users can customize their playlist by including their preferred playlist name and description, as well as a playlist cover.",
+        features: [
+            {
+                name: "Loading screen, Homepage",
+                image: [
+                    require("./images/musica/2.png"),
+                    require("./images/musica/1.png")
+                ],
+            },
+
+            {
+                name: "My collections, playlist details, add palylist",
+                image: [
+                    require("./images/musica/3.png"),
+                    require("./images/musica/4.png"),
+                    require("./images/musica/5.png")
+                ]
+            },
+
+            {
+                name: "Search Page",
+                image: [
+                    require("./images/musica/6.png")
+                ]
+            }
+        ],
+        link: "https://musica-by-iyin.netlify.app/"
+    },
+
     {
         name: "My Debtor",
         id: 1,
@@ -79,32 +114,6 @@ const projects = [
             }
         ],
         link: "https://iyin0.github.io/sneakers/"
-    },
-
-    {
-        name: "Huddle",
-        id: 3,
-        info: "This is the landing page for a web app which provides bloggers the avenue to interact with their readers.",
-        dev_tool: "Developed using HTML and CSS.",
-        about: "This is a single webpage which displays the features of the Huddle app. The webpage explains to the users how to use the app and the importance of the app. The aesthetically pleasing designs also attarcts users to the app.",
-        features: [
-            {
-                name: "Landing Page",
-                image: [
-                    require("./images/huddle/1.png"),
-                    require("./images/huddle/2.png"),
-                    require("./images/huddle/3.png"),
-                    require("./images/huddle/4.png"),
-                    require("./images/huddle/5.png")
-                ],
-            },
-
-            {
-                name: "Mobile View",
-                image: [require("./images/huddle/6.jpg")]
-            }
-        ],
-        link: "https://iyin0.github.io/huddle/"
     },
 
     {

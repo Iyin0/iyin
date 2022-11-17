@@ -16,9 +16,9 @@ const LandingPage = () => {
                     <div className="intro">
                         <div className="bio">
                             <h1>Iyinoluwa Bilewu</h1>
-                            <h2>Web/React Developer</h2>
-                            <p>Hi! I'm iyin. A passionate frontend web app developer who have developed and deployed websites using HTML,
-                                CSS and Javascript along with ReactJS and Redux framework.</p>
+                            <h2>Software Engineer</h2>
+                            <p>Hi! I'm iyin. A passionate web app developer who have developed and deployed websites using HTML,
+                                CSS and Javascript along with ReactJS and Redux framework, NodeJS and ExpressJS. I have also utilized database management systems such as My SQL and MongoDB</p>
                         </div>
                         <HashLink smooth to="/" className="project-link" onClick={scroll}>SEE MY PROJECTS</HashLink>
                         <p className='all-links'><a href="https://github.com/Iyin0" className="links">Github</a> / <a href="https://www.linkedin.com/in/isaac-bilewu-906716196/" className="links">LinkedIn</a> / <a href="https://drive.google.com/file/d/1WLTdXK3IeLdsGVMfYlhUJnLtz9rdzTHU/view?usp=sharing" className="links">Resume</a></p>
