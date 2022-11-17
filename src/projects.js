@@ -3,7 +3,7 @@ const projects = [
     {
         name: "Musica",
         id: 3,
-        info: "This is a music webapp built",
+        info: "This is a music webapp that allows users to create and enjoy their personalised playlist anytime.",
         dev_tool: "Developed using Reac, Redux and SCSS.",
         about: "This webapp allows users to create and enjoy their personalised playlist anytime. Users can customize their playlist by including their preferred playlist name and description, as well as a playlist cover.",
         features: [
