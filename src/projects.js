@@ -118,7 +118,7 @@ const projects = [
                 ]
             }
         ],
-        link: "https://iyin0.github.io/mydebtor/"
+        link: "https://mydebtor-by-iyin.netlify.app/"
     },
 
     {
