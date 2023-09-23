@@ -1,9 +1,102 @@
 const projects = [
 
     {
+        name: "RapidMedicare",
+        id: 6,
+        info: "This is a telemedicine web app",
+        dev_tool: "Developed using Next.js and SCSS",
+        about: "RapidMedicare is a healthcare technology company that is " +
+            "developing a telemedicine platform and a unified patient " +
+            "electronic health record (EHR) system to help patients and doctors " +
+            "solve the problem of, fragmented patient health records system, " +
+            "lack of access to healthcare Services, poor patient compliance " +
+            "with meds regardless of location.",
+        features: [
+            {
+                name: "Home Page",
+                image: [
+                    require("./images/rapidmedicare/1.png"),
+                ],
+            },
+            {
+                name: "Doctor Section",
+                image: [
+                ],
+            },
+            {
+                name: "Patient Section",
+                image: [
+                ],
+            },
+            {
+                name: "Pharmacy Section",
+                image: [
+                ],
+            },
+            {
+                name: "Admin Section",
+                image: [
+                ],
+            },
+            {
+                name: "Services",
+                image: [
+                ],
+            },
+            {
+                name: "Get In Touch",
+                image: [
+                ],
+            },
+            {
+                name: "About Page",
+                image: [
+                ],
+            },
+        ],
+        link: "https://rapidmed.care/"
+    },
+    {
+        name: "Quickly MarketPlace",
+        id: 5,
+        info: "This is an e-commerce platform for students in schools",
+        dev_tool: "Developed using Node.js, Express.js, MySQL, AWS",
+        about: "This is an e-commerce web app platform which is targeted to help students in schools sell and purchase products easily and safely. The web app focuses on taking care of student's businesses while they can focus on their studies.",
+        features: [
+            {
+                name: "Home Page",
+                image: [
+                    require("./images/quickly/1.png"),
+                ],
+            },
+
+            {
+                name: "Product Page",
+                image: [
+                ],
+            },
+            {
+                name: "Store Section",
+                image: [
+                ],
+            },
+            {
+                name: "Drop",
+                image: [
+                ],
+            },
+            {
+                name: "Cart",
+                image: [
+                ],
+            },
+        ],
+        link: "https://quickly.com.ng/"
+    },
+    {
         name: "Artsy",
-        id: 2,
-        info: "This is an e-ecommerce web app for art sales and purchases.",
+        id: 4,
+        info: "This is an e-commerce web app for art sales and purchases.",
         dev_tool: "Developed using ReactTS (Typescript) and SCSS.",
         about: "This is an e-commerce web app platform for the sales and purchase of art. Artists and artwork lovers can advertise and trade their arts as NFTs on the platform.",
         features: [
@@ -82,7 +175,7 @@ const projects = [
 
     {
         name: "My Debtor",
-        id: 1,
+        id: 2,
         info: "This is a fully developed website to assist schools with recovering student debts as well as prevent the admission of a debtor.",
         dev_tool: "Developed using ReactJS and CSS.",
         about: "My debtor is a school administrative webapp. It's primary function is to help schools recover debts from defaulting students, " +
@@ -123,7 +216,7 @@ const projects = [
 
     {
         name: "Spotify",
-        id: 4,
+        id: 1,
         info: "This is a Spotify web app.",
         dev_tool: "Developed using ReactJS and CSS.",
         about: "This is a Sporify web app for listening and enjoying your favourite music. It features the use of Spotify API to manage the user's interest and interaction. The user's login is authenticated by Spotify so users' credentials are secure. The user, when logged in can view different playlists suggested on the homepage and through the search page. The user can also control playback of their favourite songs.",
