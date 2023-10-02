@@ -2,16 +2,19 @@ import LandingPage from "./landingPage";
 import { Outlet, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ProjectDetails from "./ProjectDetails";
 import Footer from "./Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
 
   const Layout = () => {
     return (
-      <div className="App">
-        <Outlet />
-        <Footer />
-      </div>
+      <Analytics>
+        <div className="App">
+          <Outlet />
+          <Footer />
+        </div>
+      </Analytics>
     )
   }
 
