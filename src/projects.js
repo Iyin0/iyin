@@ -3,7 +3,8 @@ const projects = [
     {
         name: "RapidMedicare",
         id: 6,
-        info: "This is a telemedicine web app",
+        info: "This is a telemedicine web app where patients can book appointment with a doctor, get a consultation " +
+            "and have their prescription delivered by the nearest pharmacy.",
         dev_tool: "Developed using Next.js and SCSS",
         about: "RapidMedicare is a healthcare technology company that is " +
             "developing a telemedicine platform and a unified patient " +
