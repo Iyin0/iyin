@@ -16,7 +16,7 @@ const LandingPage = () => {
                     <div className="intro">
                         <div className="bio">
                             <h1>Iyinoluwa Bilewu</h1>
-                            <h2>Web Developer</h2>
+                            <h2>Fullstack Web Developer</h2>
                             <p>Hi! I'm iyin. A passionate web app developer who have developed and deployed websites using React.js, Next.js,
                                 SCSS, Javascript, Typescript, Node.js and Express.js, . I have also utilized database management systems such as MySQL and MongoDB</p>
                         </div>
