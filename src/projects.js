@@ -104,7 +104,7 @@ const projects = [
         name: "Quickly MarketPlace",
         id: 5,
         info: "This is an e-commerce platform for students in schools",
-        dev_tool: "Developed using Node.js, Express.js, MySQL, AWS",
+        dev_tool: "Developed using Nest.js, MySQL, AWS",
         about: "This is an e-commerce web app platform which is targeted to help students in schools sell and purchase products easily and safely. The web app focuses on taking care of student's businesses while they can focus on their studies.",
         features: [
             {
