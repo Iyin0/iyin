@@ -1,5 +1,48 @@
 const projects = [
-
+    {
+        name: "Leytro",
+        id: 7,
+        info: "Leytro is a leading insurtech company specialising in usage-based insurance for SMEs. Leytro delivers user-friendly, " +
+            "cost-effective, and incentive-driven insurance policies tailored for fleet managers and drivers.",
+        dev_tool: "Developed using Next.js and SCSS (for web application) and Flutter (for mobile application)",
+        about: `Leytro incorporates telematics intelligence to continuously assess the driving behaviours of 
+        policyholders, offering real-time insights into their driving habits. This capability empowers businesses to optimise their fleet 
+        management strategies to seamlessly make insurance payments via the app, utilising a pay-as-you-go approach with fair premiums and incentives 
+        for safe driving.`,
+        features: [
+            {
+                name: "Homepage",
+                image: [
+                    require("./images/leytro/1.png"),
+                ],
+            },
+            {
+                name: "On board multiple vehicle and get your quote",
+                image: [
+                    require("./images/leytro/2.png"),
+                ],
+            },
+            {
+                name: "Seamless payment",
+                image: [
+                    require("./images/leytro/3.png"),
+                ],
+            },
+            {
+                name: "Get insured and view policy",
+                image: [
+                    require("./images/leytro/4.png"),
+                ],
+            },
+            {
+                name: "Driver's Stats",
+                image: [
+                    require("./images/leytro/5.png"),
+                ],
+            },
+        ],
+        link: 'https://leytro.com'
+    },
     {
         name: "RapidMedicare",
         id: 6,
