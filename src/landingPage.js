@@ -17,8 +17,17 @@ const LandingPage = () => {
                         <div className="bio">
                             <h1>Iyinoluwa Bilewu</h1>
                             <h2>Fullstack Web Developer</h2>
-                            <p>Hi! I'm iyin. A passionate web app developer who have developed and deployed websites using React.js, Next.js,
-                                SCSS, Javascript, Typescript, Node.js and Express.js, . I have also utilized database management systems such as MySQL and MongoDB</p>
+                            <p>
+                                Hey there! I'm iyin, a passionate software developer specializing in crafting dynamic
+                                mobile applications using Flutter and sleek websites with React.js and Next.js. I excel
+                                in utilizing a diverse tech stack that includes SCSS, JavaScript, TypeScript, Node.js,
+                                and Nest.js. With a keen eye for detail, I've honed my skills in developing robust
+                                servers using Node.js and Nest.js. My expertise extends to designing software
+                                architecture and managing databases, where I've adeptly worked with MySQL and MongoDB.
+                                Additionally, I'm well-versed in leveraging  cloud services like AWS for seamless deployment -
+                                from setting up servers on AWS EC2  through GitHub Actions and Docker to harnessing AWS storage
+                                solutions such as RDS for SQL  data storage and S3 for efficient file management.
+                            </p>
                         </div>
                         <HashLink smooth to="/" className="project-link" onClick={scroll}>SEE MY PROJECTS</HashLink>
                         <p className='all-links'><a href="https://github.com/Iyin0" className="links">Github</a> / <a href="https://www.linkedin.com/in/isaac-bilewu/" className="links">LinkedIn</a> / <a href="https://drive.google.com/file/d/1WLTdXK3IeLdsGVMfYlhUJnLtz9rdzTHU/view?usp=sharing" className="links">Resume</a></p>
