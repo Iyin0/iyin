@@ -18,7 +18,7 @@ export default function Home() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-2xl sm:text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-8 bg-gradient-to-br from-[#cad5e2] to-[#62748e] py-4 bg-clip-text text-center text-2xl sm:text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
           Hi, I&apos;m Iyin
         </motion.h1>
@@ -30,7 +30,7 @@ export default function Home() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="mt-4 text-center text-lg sm:text-2xl bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text tracking-tight text-transparent"
+          className="mt-4 text-center text-lg sm:text-2xl bg-gradient-to-br from-[#cad5e2] to-[#62748e] py-4 bg-clip-text tracking-tight text-transparent"
         >
           I&apos;m a software engineer with a passion for building products that
           help people live better lives.
@@ -46,7 +46,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col lg:flex-row gap-10 items-center justify-center h-auto w-full px-4 lg:px-40 py-40">
-        <p className="text-justify text-lg sm:text-2xl bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text tracking-tight text-transparent lg:max-w-[50%]">
+        <p className="text-justify text-lg sm:text-2xl bg-gradient-to-br from-[#cad5e2] to-[#62748e] bg-clip-text tracking-tight text-transparent lg:max-w-[50%]">
           Hey there! I&apos;m a passionate software developer specializing in crafting dynamic
           frontend applications using React.js, Next.js and Tailwind CSS. With a keen eye for detail,
           I&apos;ve honed my skills in developing robust
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
       <div id="my-projects" className="flex flex-col items-center h-auto w-full px-4 lg:px-40 pb-40">
         <div className="lg:max-w-[80%] w-full flex flex-col justify-center">
-          <h2 className="text-2xl sm:text-3xl font-medium bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text tracking-tight text-transparent">Projects</h2>
+          <h2 className="text-2xl sm:text-3xl font-medium bg-gradient-to-br from-[#cad5e2] to-[#62748e] py-4 bg-clip-text tracking-tight text-transparent">Projects</h2>
           <ExpandableCardDemo />
         </div>
       </div>
