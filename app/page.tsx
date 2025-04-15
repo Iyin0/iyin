@@ -30,7 +30,7 @@ export default function Home() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="mt-4 text-center text-lg sm:text-2xl bg-gradient-to-br from-[#cad5e2] to-[#62748e] py-4 bg-clip-text tracking-tight text-transparent"
+          className="mt-4 text-center text-lg sm:text-2xl text-[#cad5e2] py-4"
         >
           I&apos;m a software engineer with a passion for building products that
           help people live better lives.
@@ -38,15 +38,15 @@ export default function Home() {
       </LampContainer>
       <div className="flex items-center justify-center h-auto w-full absolute bottom-30 sm:bottom-10">
         <FloatingDock
-          mobileClassName="translate-y-20"
+          mobileClassName="hidden"
           items={links.map((link) => ({
             ...link,
             icon: <link.icon className="h-full w-full text-neutral-500 dark:text-neutral-300"/>,
           }))}
         />
       </div>
-      <div className="flex flex-col lg:flex-row gap-10 items-center justify-center h-auto w-full px-4 lg:px-40 py-40">
-        <p className="text-justify text-lg sm:text-2xl bg-gradient-to-br from-[#cad5e2] to-[#62748e] bg-clip-text tracking-tight text-transparent lg:max-w-[50%]">
+      <div className="flex flex-col lg:flex-row gap-10 items-center justify-center h-auto w-full px-4 lg:px-40 lg:py-40 pb-10">
+        <p className="text-justify text-lg sm:text-2xl text-[#cad5e2] lg:max-w-[50%]">
           Hey there! I&apos;m a passionate software developer specializing in crafting dynamic
           frontend applications using React.js, Next.js and Tailwind CSS. With a keen eye for detail,
           I&apos;ve honed my skills in developing robust
@@ -61,7 +61,7 @@ export default function Home() {
             {stacks.map((stack) => (
               <div key={stack.title} className="flex flex-col items-center text-neutral-500 dark:text-neutral-300">
                 <stack.icon className="h-10 w-10" />
-                <span>{stack.title}</span>
+                <span className="text-center">{stack.title}</span>
               </div>
             ))}
           </div>

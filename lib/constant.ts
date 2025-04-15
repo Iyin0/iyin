@@ -124,7 +124,7 @@ export const stacks = [
     icon: IconBrandGraphql,
   },
   {
-    title: "Shopofy",
+    title: "Shopify",
     icon: IconShoppingBag,
   },
 ];
