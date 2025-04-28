@@ -21,6 +21,7 @@ import {
   IconBrandGraphql,
   IconShoppingBag,
   IconPresentation,
+  IconUserCog,
 } from "@tabler/icons-react";
 
 export const links = [
@@ -52,6 +53,12 @@ export const links = [
     title: "My Stacks",
     icon: IconStack2,
     href: "#my-stacks",
+    target: "_self",
+  },
+  {
+    title: "My Experiences",
+    icon: IconUserCog,
+    href: "#my-experiences",
     target: "_self",
   },
   {
@@ -211,4 +218,72 @@ export const projects =  [
       image: '/images/spotify.png'
   },
 
+];
+
+export const experiences = [
+  {
+    title: "Frontend Engineer",
+    company: "Valley",
+    location: "New York, United States",
+    duration: "March 2024 - Present",
+    type: "Contract (Remote)",
+    description: [
+      "Researched, designed, managed software programs.",
+      "Tested and evaluated new programs and features.",
+      "Modified software to fix error, improve its performance.",
+      "Wrote and implemented codes for new features.",
+      "Consulted with engineering staff to evaluate software-hardware interfaces and develop specifications and performance requirements.",
+    ]
+  },
+  {
+    title: "Lead Frontend Engineer",
+    company: "Leytro",
+    location: "Lagos, Nigeria",
+    duration: "May 2023 - October 2024",
+    type: "Full-time (Remote)",
+    description: [
+      "Developed the web application for user intraction as well as managed and maintained the Flutter codebase.",
+      "Collaborated with the backend developer to implement and integrated the provided endpoints and implemented new features to make the app work better and more seamless for users.",
+      "Collaborated with the product designer to improve the user interface of both the web and mobile applications which lead to an improved user experience.",
+      "Collarated with the development team and sales and marketing team to introduce ideas and methods that improved the user’s experience.",
+    ]
+  },
+  {
+    title: "Lead Backend Engineer",
+    company: "Quickly Marketplace",
+    location: "Abuja, Nigeria",
+    duration: "February 2023 - April 2024",
+    type: "Volunteer (Remote)",
+    description: [
+      "Developed the server side and software architecture of the application using the latest Web technologies and providing safe and secure user authentication, authorization, data storage and REST API developlment.",
+      "Collaborated with the frontend developer to provide the necessary endpoints for a seamless user onboarding, store creation, product upload, product query, instant messaging as well as other app features.",
+      "Collaborated with the product designers to deliver a product that meets the market needs of the prospectie users.",
+    ]
+  },
+  {
+    title: "Lead Frontend Engineer",
+    company: "RapidMedicare",
+    location: "Abuja, Nigeria",
+    duration: "May 2023 - September 2023",
+    type: "Contract (Remote)",
+    description: [
+      "Developed the user interface using the latest Web technologies and providing safe and secure user authentication and authorization.",
+      "Collaborated with the product designer to provide the user interfaces for the web application which provided users with a seamless onboarding and medical consultation process.",
+      "Collaborated with the backend developers to consume the provided RESTFUL APIs and ensure data is correctly and safely stored and retrieved.",
+      "Collaborated with the medical team to ensure the Web application adhere strictly to the best medical practices for safe and comfortable medical consultation.",
+      "Collaborated with the CTO and product manager to ensure the project is delivered in timely manner and is user friendly and ready.",
+    ]
+  },
+  {
+    title: "Web Development Resource Person",
+    company: "HiiT PLC",
+    location: "Abuja, Nigeria",
+    duration: "February 2023 - April 2024",
+    type: "Contract",
+    description: [
+      "Tutored classes on web development using HTML, CSS, JavaScript, NodeJS and ReactJS.",
+      "Tutored classes on digital literacy; the use computer, Microsoft suite, the internet and network.",
+      "Prepared learning materials for digital literacy and web development classes.",
+    ]
+  }
 ];
