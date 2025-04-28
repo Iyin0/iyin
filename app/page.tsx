@@ -37,7 +37,7 @@ export default function Home() {
           help people live better lives.
         </motion.p>
       </LampContainer>
-      <div className="flex items-center justify-center h-auto w-full fixed bottom-20 sm:bottom-10 -mt-20">
+      <div className="flex items-center justify-center h-auto w-full fixed bottom-10 -mt-20">
         <FloatingDock
           mobileClassName="hidden"
           items={links.map((link) => ({
