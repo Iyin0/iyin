@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from '@vercel/analytics/next';
+import Script from 'next/script'
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,6 +32,10 @@ export default function RootLayout({
         {children}
         <Analytics />
       </body>
+      <Script
+        src="https://valley-intent.nyc3.digitaloceanspaces.com/script.js?id=2"
+        async
+      />
     </html>
   );
 }
