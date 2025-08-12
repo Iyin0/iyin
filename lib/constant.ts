@@ -222,17 +222,18 @@ export const projects =  [
 
 export const experiences = [
   {
-    title: "Frontend Engineer",
+    title: "Frontend Engineer (Fullstack)",
     company: "Valley",
     location: "New York, United States",
-    duration: "March 2024 - Present",
+    duration: "March 2024 - August 2025",
     type: "Contract (Remote)",
     description: [
-      "Researched, designed, managed software programs.",
-      "Tested and evaluated new programs and features.",
-      "Modified software to fix error, improve its performance.",
+      "Built out the user interface which includes the authentication, onboarding flow, messaging screens, etc.",
+      "Implemented the payment system for subscription based usage of the product.",
+      "Researched, designed, managed third party software integrations.", 
+      "Tested and evaluated new features for better user experience.", 
+      "Modified the product to fix error and improve its performance.", 
       "Wrote and implemented codes for new features.",
-      "Consulted with engineering staff to evaluate software-hardware interfaces and develop specifications and performance requirements.",
     ]
   },
   {
