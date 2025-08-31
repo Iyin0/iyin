@@ -8,6 +8,9 @@ import { ExpandableCardDemo } from "@/components/ui/expandable-card";
 import { IconBuildings } from "@tabler/icons-react";
 
 export default function Home() {
+  const date = new Date();
+  const year = date.getFullYear();
+  const yearsOfExperience = year - 2020;
   return (
     <main>
       <LampContainer>
@@ -33,8 +36,7 @@ export default function Home() {
           }}
           className="mt-4 text-center text-lg sm:text-2xl text-[#cad5e2] py-4"
         >
-          I&apos;m a software engineer with a passion for building products that
-          help people live better lives.
+          {`I'm a software engineer with ${yearsOfExperience}+ years of experience building scalable, responsive, and user-focused web and mobile applications`}
         </motion.p>
       </LampContainer>
       <div className="flex items-center justify-center h-auto w-full fixed bottom-10 -mt-20">
@@ -48,14 +50,11 @@ export default function Home() {
       </div>
       <div id="my-stacks" className="flex flex-col lg:flex-row gap-10 items-center justify-center h-auto w-full px-4 lg:px-40 lg:py-20 pb-10">
         <p className="text-justify text-lg sm:text-xl text-[#cad5e2] lg:max-w-[50%]">
-          Hey there! I&apos;m a passionate software developer specializing in crafting dynamic
-          frontend applications using React.js, Next.js and Tailwind CSS. With a keen eye for detail,
-          I&apos;ve honed my skills in developing robust
-          servers using Node.js and Nest.js. My expertise extends to designing software
-          architecture and managing databases, where I&apos;ve adeptly worked with MySQL and MongoDB.
-          Additionally, I&apos;m well-versed in leveraging  cloud services like AWS for seamless deployment -
-          from setting up servers on AWS EC2  through GitHub Actions and Docker to harnessing AWS storage
-          solutions such as RDS for SQL  data storage and S3 for efficient file management.
+          Hey there! I&apos;m a passionate software engineer skilled in React.js, Next.js, Flutter, Node.js, GraphQL, and AWS,
+          with proven expertise in designing intuitive UIs, integrating payments, and delivering end-to-end solutions across
+          healthcare, insurance, and SaaS platforms. Adept at collaborating with cross-functional teams to ship features that
+          improve user experience, boost retention, and drive product adoption. Seeking opportunities in forward-thinking organizations
+          to contribute technical expertise and innovation.
         </p>
         <div className="">
           <div className="grid gap-4 grid-cols-4">

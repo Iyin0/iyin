@@ -228,12 +228,11 @@ export const experiences = [
     duration: "March 2024 - August 2025",
     type: "Contract (Remote)",
     description: [
-      "Built out the user interface which includes the authentication, onboarding flow, messaging screens, etc.",
-      "Implemented the payment system for subscription based usage of the product.",
-      "Researched, designed, managed third party software integrations.", 
-      "Tested and evaluated new features for better user experience.", 
-      "Modified the product to fix error and improve its performance.", 
-      "Wrote and implemented codes for new features.",
+      "Built core UI features including authentication, onboarding flows, and messaging screens, enhancing overall user engagement, improving onboarding completion rate by 30% and reducing drop-offs.",
+      "Implemented subscription-based payment system (Stripe), enabling recurring revenue streams.",
+      "Integrated third-party APIs and software to expand platform functionality.",
+      "Delivered performance improvements and bug fixes, increasing platform stability, improving performance and load time, reducing bugs impacting users and downtime, thereby leading to a 77% revenue growth.",
+      "Developed and tested new features to ensure seamless user experience.",
     ]
   },
   {
@@ -243,10 +242,10 @@ export const experiences = [
     duration: "May 2023 - October 2024",
     type: "Full-time (Remote)",
     description: [
-      "Developed the web application for user intraction as well as managed and maintained the Flutter codebase.",
-      "Collaborated with the backend developer to implement and integrated the provided endpoints and implemented new features to make the app work better and more seamless for users.",
-      "Collaborated with the product designer to improve the user interface of both the web and mobile applications which lead to an improved user experience.",
-      "Collarated with the development team and sales and marketing team to introduce ideas and methods that improved the user’s experience.",
+      "Pioneered the transition to web application leading to raising average session time by 15%.",
+      "Collaborated with backend engineers to integrate APIs and ensure seamless data flow.", 
+      "Refined UI in collaboration with product designers, increasing customer retention by 22%.",
+      "Contributed cross-functionally with sales and marketing teams to enhance user experience strategies.",
     ]
   },
   {
@@ -256,9 +255,9 @@ export const experiences = [
     duration: "February 2023 - April 2024",
     type: "Volunteer (Remote)",
     description: [
-      "Developed the server side and software architecture of the application using the latest Web technologies and providing safe and secure user authentication, authorization, data storage and REST API developlment.",
-      "Collaborated with the frontend developer to provide the necessary endpoints for a seamless user onboarding, store creation, product upload, product query, instant messaging as well as other app features.",
-      "Collaborated with the product designers to deliver a product that meets the market needs of the prospectie users.",
+      "Designed and implemented backend architecture with secure authentication, authorization, and data storage.", 
+      "Developed REST APIs powering onboarding, product uploads, instant messaging, and store creation features.", 
+      "Collaborated with frontend and product teams to deliver a scalable marketplace aligned with user needs.",
     ]
   },
   {
@@ -268,23 +267,10 @@ export const experiences = [
     duration: "May 2023 - September 2023",
     type: "Contract (Remote)",
     description: [
-      "Developed the user interface using the latest Web technologies and providing safe and secure user authentication and authorization.",
-      "Collaborated with the product designer to provide the user interfaces for the web application which provided users with a seamless onboarding and medical consultation process.",
-      "Collaborated with the backend developers to consume the provided RESTFUL APIs and ensure data is correctly and safely stored and retrieved.",
-      "Collaborated with the medical team to ensure the Web application adhere strictly to the best medical practices for safe and comfortable medical consultation.",
-      "Collaborated with the CTO and product manager to ensure the project is delivered in timely manner and is user friendly and ready.",
+      "Built secure and responsive web interface for patient onboarding and medical consultations.",
+      "Integrated APIs for data handling, ensuring compliance with medical standards.",
+      "Collaborated with medical staff to optimize workflows and improve patient experience.",
+      "Coordinated with CTO and product manager to deliver the project on time.",
     ]
   },
-  {
-    title: "Web Development Resource Person",
-    company: "HiiT PLC",
-    location: "Abuja, Nigeria",
-    duration: "February 2023 - April 2024",
-    type: "Contract",
-    description: [
-      "Tutored classes on web development using HTML, CSS, JavaScript, NodeJS and ReactJS.",
-      "Tutored classes on digital literacy; the use computer, Microsoft suite, the internet and network.",
-      "Prepared learning materials for digital literacy and web development classes.",
-    ]
-  }
 ];
