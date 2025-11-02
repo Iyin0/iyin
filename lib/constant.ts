@@ -1,7 +1,6 @@
 import {
   IconBrandGithub,
   IconFile,
-  IconMail,
   IconBrandLinkedin,
   IconBrandReact,
   IconStack2,
@@ -22,6 +21,7 @@ import {
   IconShoppingBag,
   IconPresentation,
   IconUserCog,
+  IconAddressBook,
 } from "@tabler/icons-react";
 
 export const links = [
@@ -44,10 +44,10 @@ export const links = [
     target: "_blank",
   },
   {
-    title: "Email",
-    icon: IconMail,
-    href: "mailto:p2iyinoluwa@gmail.com",
-    target: "_blank",
+    title: "Contact",
+    icon: IconAddressBook,
+    href: "#contact",
+    target: "_self",
   },
   {
     title: "My Stacks",
