@@ -36,7 +36,7 @@ export default function Home() {
           }}
           className="mt-4 text-center text-lg sm:text-2xl text-[#cad5e2] py-4"
         >
-          {`I'm a software engineer with ${yearsOfExperience}+ years of experience building scalable, responsive, and user-focused web and mobile applications`}
+          {`I'm a software engineer with ${yearsOfExperience} years of experience building scalable, responsive, and user-focused web and mobile applications`}
         </motion.p>
       </LampContainer>
       <div className="flex items-center justify-center h-auto w-full fixed bottom-10 -mt-20">
