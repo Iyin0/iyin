@@ -273,4 +273,19 @@ export const experiences = [
       "Coordinated with CTO and product manager to deliver the project on time.",
     ]
   },
+  {
+    title: "Software Engineer",
+    company: "",
+    location: "Remote",
+    duration: "February 2020 - April 2023",
+    type: "Freelance",
+    description: [
+      "Designed, developed and deployed the frontend architecture for various clients across SaaS, e-commerce and real estate products.",
+      "Collaborated with cross-functional teams to define, design, and ship new features, ensuring alignment with client requirements and enhancing user satisfaction.",
+      "Optimized applications for maximum speed and scalability, resulting in improved performance metrics and user experience.",
+      "Designed and implemented RESTful APIs for authentication and secure data fetching and querying.",
+      "Developed a Shopify-based e-commerce platform for an auto parts retailer, designing custom themes and integrating Shopify Liquid, Storefront API, and third-party payment gateways, leading to an increase in online conversions.",
+      "Implemented CI/CD pipelines with GitHub Actions, Docker, and Vercel, enabling seamless deployments and faster iteration cycles.",
+    ]
+  },
 ];
