@@ -150,7 +150,7 @@ export const projects =  [
       name: "Leytro",
       info: "Leytro is a leading insurtech company specialising in usage-based insurance for SMEs. Leytro delivers user-friendly, " +
           "cost-effective, and incentive-driven insurance policies tailored for fleet managers and drivers.",
-      stacks: ["Next.js", "SCSS", "Flutter", 'React-form-hook', 'Zod'],
+      stacks: ["Next.js", "SCSS", "Flutter", 'React-form-hook', 'Zod','Git'],
       about: `Leytro incorporates telematics intelligence to continuously assess the driving behaviours of 
       policyholders, offering real-time insights into their driving habits. This capability empowers businesses to optimise their fleet 
       management strategies to seamlessly make insurance payments via the app, utilising a pay-as-you-go approach with fair premiums and incentives 
@@ -162,7 +162,7 @@ export const projects =  [
       name: "RapidMedicare",
       info: "This is a telemedicine web app where patients can book appointment with a doctor, get a consultation " +
           "and have their prescription delivered by the nearest pharmacy.",
-      stacks: ["Next.js", "SCSS"],
+      stacks: ["Next.js", "SCSS", 'React-form-hook', 'Zod', 'Git'],
       about: "RapidMedicare is a healthcare technology company that is " +
           "developing a telemedicine platform and a unified patient " +
           "electronic health record (EHR) system to help patients and doctors " +
@@ -175,7 +175,7 @@ export const projects =  [
   {
       name: "Quickly MarketPlace",
       info: "This is an e-commerce platform for students in schools",
-      stacks: ["Nest.js", "MySQL", "AWS"],
+      stacks: ["Node.js", "Nest.js", "MySQL", "AWS EC2", "AWS RDS", "AWS S3 Bucket", 'Git'],
       about: "This is an e-commerce web app platform which is targeted to help students in schools sell and purchase products easily and safely. The web app focuses on taking care of student's businesses while they can focus on their studies.",
       link: "https://quickly.com.ng/",
       image: '/images/quickly.png'
@@ -192,7 +192,7 @@ export const projects =  [
   {
       name: "Musica",
       info: "This is a music webapp that allows users to create and enjoy their personalised playlist anytime.",
-      stacks: ["React", "Typescript", "SCSS", "Node.js", "MongoDB"],
+      stacks: ["React.js", "Typescript", "SCSS", "Node.js", "MongoDB"],
       about: "This webapp allows users to create and enjoy their personalised playlist anytime. Users can customize their playlist by including their preferred playlist name and description, as well as a playlist cover.",
       link: "https://musica-by-iyin.netlify.app/",
       image: '/images/musica.png'
